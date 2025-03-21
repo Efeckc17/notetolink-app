@@ -1,69 +1,76 @@
-# 📘 Notetolink App
+# 🧾 Notetolink App
 
-**Notetolink App** is a modern PyQt5-based desktop app that lets you easily write notes with optional images and share them online in one click via [notetolink.win](https://notetolink.win). Organize your notes using categories, customize your view with dark/light modes, and manage everything through a user-friendly interface.
+**Notetolink App** is a cross-platform desktop application built with **PyQt5**, allowing users to create and instantly share notes containing text and up to 5 images via the [Notetolink API](https://notetolink.win). It supports categories, drag-and-drop organization, and dark/light themes. All data is stored locally in JSON format.
 
+![App Screenshot](screenshot.png)
 
+---
 
-## ✨ Features
+## 🚀 Features
 
-- 📝 Create notes with a title, content, and up to **5 images**
-- 🌐 Share notes instantly using the **Notetolink API**
-- 🗂️ Organize notes into **custom categories**
-- 🧲 Drag & drop notes into categories
-- 🌙 Toggle between **dark & light themes**
-- 💾 Local saving of notes in `JSON` format
-- 🧹 Clean, minimalist but **feature-rich UI**\
-  \
-  \
-  ![Screenshot]\(screenshot.png)
+- ✍️ Create notes with title, content, and up to 5 images
+- 🌐 Generate public links using the Notetolink API
+- 🗂️ Organize notes into categories (with drag-and-drop)
+- 🌓 Dark/Light theme toggle
+- 💾 Local JSON storage for offline use
 
-## ⚙️ Requirements
+---
 
-- Python 3.8+
+## 📦 Requirements
+
+- Python 3.8 or higher
 - PyQt5
 - requests
 
-### Install dependencies:
-
+### 📥 Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-> `requirements.txt`
-
+**requirements.txt**:
 ```
 PyQt5>=5.15
 requests
 ```
 
-## 🚀 Run the App
+---
+
+## ▶️ Running the App
 
 ```bash
-python main.py
+python app.py
 ```
 
-## 📁 Project Structure
+---
 
+## 🗃️ Project Structure
 ```
 notetolink-app/
-├── main.py
-├── notes_data.json        # Local note storage
-├── README.md
+├── app.py                  # Main application entry point
+├── screenshot.png          # Application screenshot
 ├── requirements.txt
-├── screenshot.png         # UI preview
+├── README.md
 ```
 
-## 🤝 Contributions
+---
 
-Pull requests are welcome! Feel free to open issues for bugs or feature suggestions.
+## 🤝 Contributing
 
-## 📬 Contact
+Open to feedback and contributions — just keep it clean and useful. Pull requests are welcome. If you find bugs or have feature ideas, feel free to open an issue.
 
-- ✉️ Email: [toxi360@workmail.com](mailto\:toxi360@workmail.com)
-- 🧑‍💻 GitHub: [Efeckc17](https://github.com/Efeckc17)
-- 🌐 Website: [toxi360.org](https://toxi360.org)
+---
+
+## 📫 Contact
+
+- 📧 Email: [toxi360@workmail.com](mailto:toxi360@workmail.com)
+- 💻 GitHub: [Efeckc17](https://github.com/Efeckc17)
+- 🌍 Website: [toxi360.org](https://toxi360.org)
+
+---
 
 ## 📄 License
 
-MIT License
+This project is licensed under the MIT License.
+
+---
 
