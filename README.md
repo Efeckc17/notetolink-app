@@ -50,6 +50,8 @@ notetolink-app/
 ├── screenshot.png          # Application screenshot
 ├── requirements.txt
 ├── README.md
+├── icon.ico
+├── LICENSE
 ```
 
 ---
