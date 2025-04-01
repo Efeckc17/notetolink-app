@@ -1,16 +1,16 @@
-# 🚀 NoteToLink Desktop App"
+# 🚀 NoteToLink Desktop App
 
 **NoteToLink Desktop** is a blazing-fast, cross-platform desktop application built with **PyQt5**, designed to make note-sharing effortless and powerful. Instantly create and share notes containing text and up to 5 images via the [Notetolink API](https://notetolink.win). Organize your notes, customize the look, and stay productive with new smart features!
 
-![App Screenshot](screenshot.png)
+![App Screenshot](img/screenshot.png)
 
 ---
 
-## 🌟 What's New in?
+## 🌟 What's New in Advanced Edition
 
 🔥 **Quick Note** → Create a note instantly from the system tray without opening the full app.
 
-![Quick Note Screenshot](quicknote.png)
+![Quick Note Screenshot](img/quicknote.png)
 
 ⭐ **Favorites System** → Mark important notes as favorites and access them with one click.
 
@@ -24,7 +24,7 @@
 
 🗂️ **Smart Notes Panel** → View, edit, favorite or delete notes from the new & modern **My Notes** section.
 
-![Notes Panel Screenshot](notes.png)
+![Notes Panel Screenshot](img/notes.png)
 
 ---
 
@@ -75,9 +75,10 @@ python app.py
 ```
 notetolink-app/
 ├── app.py                  # Main application entry point
-├── screenshot.png          # Home screen screenshot
-├── quicknote.png           # Quick Note feature screenshot
-├── notes.png               # My Notes panel screenshot
+├── img/
+│   ├── screenshot.png      # Home screen screenshot
+│   ├── quicknote.png       # Quick Note feature screenshot
+│   └── notes.png           # My Notes panel screenshot
 ├── requirements.txt
 ├── README.md
 ├── icon.ico
@@ -93,7 +94,7 @@ Open an issue for bugs, feature requests, or send a pull request to improve the 
 
 ---
 
-## 📢 Contact
+## 📫 Contact
 
 - 📧 Email: [toxi360@workmail.com](mailto:toxi360@workmail.com)
 - 💻 GitHub: [Efeckc17](https://github.com/Efeckc17)
