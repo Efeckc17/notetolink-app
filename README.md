@@ -61,7 +61,6 @@ pip install -r requirements.txt
 **requirements.txt**
 ```
 PyQt5>=5.15
-requests
 ```
 
 ---
